@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conatiner{
+    background: rgb(0, 0, 0);
+    padding: 20px;
+   
+   position: relative;
+    margin:  0 auto;
+ 
+}
+.items{
+   margin-top: 14px;
+    padding: 8px;
+    height: 75vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.groupe-btn{
+  
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 450px;
+    bottom:10px ;
+    
+}
+.item{
+    background-color: rgb(194, 194, 194);
+    border-radius:5px ;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.active{
+    background-color: rgb(48, 48, 48);
+}
